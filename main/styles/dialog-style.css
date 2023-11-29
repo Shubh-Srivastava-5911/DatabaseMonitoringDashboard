@@ -1,0 +1,50 @@
+.inner-dialog {
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    width: 100%;
+    height: 70%;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 10%;
+}
+
+.inputs {
+    width: 80%;
+    height: 15%;
+    border: solid 1px lightgray;
+    padding: 5px;
+    display: flex;
+    gap: 1rem;
+}
+
+.input-label {
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.text-box {
+    width: 70%;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.dialog-div-top {
+    border: solid 1px lightgray;
+    height: 80%;
+}
+.dialog-div-bottom {
+    border: solid 1px lightgray;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#ok {
+    width: 40%;
+}
+#cancel {
+    width: 40%;
+}
